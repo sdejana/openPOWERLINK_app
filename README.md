@@ -6,7 +6,7 @@ Cilj ovog projekta je realizacija jednostavnog sistema zasnovanog na **openPOWER
 
 ## Struktura sistema
 
-- **MN (Managing Node)** – jedan Raspberry Pi uređaj u ulozi mastera.
+- **MN (Managing Node)** – jedan Raspberry Pi uređaj u ulozi upravljačkog čvora.
 - **CN1 (Controlled Node 1)** – jedan Raspberry Pi uređaj sa digitalnim ulazom (dugme).
 - **CN2 (Controlled Node 2)** – jedan Raspberry Pi uređaj sa digitalnim izlazom (LED dioda).
 
