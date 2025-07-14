@@ -16,6 +16,9 @@ Nakon dodavanja plug-in - a, trebalo bi biti moguće kreirati novu POWERLINK mre
 
 Moguće je odabrati postojeću POWERLINK mrežu, te je uvesti kao projekat, a potom analizirati čvorove u mreži i konfiguraciju. To se radi na način da se u kartici `File` izabere opcija `Import Projects from File System or Archive`, a potom navigira do direktorijuma gdje je projekat, tj. struktura mreže smještena. 
 
+![eclipse-project-view](/imgs/eclipse-project-view.png)
+_Izgled programskog prozora za projekat Demo_3CN_
+
 U dostupnoj implementaciji jedne mreže sa tri čvora - dva CN i jednog MN koristi se osmobitni prenos podataka. Neke od osnovnih osobina su: 
 - **Veličina procesne slike:**
   - Ulaz: `1 byte` po CN čvoru
