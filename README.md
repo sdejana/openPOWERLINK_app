@@ -12,6 +12,10 @@ Cilj ovog projekta je realizacija jednostavnog sistema zasnovanog na **openPOWER
 
 Uređaji su međusobno povezani preko **Ethernet HUB-a** kako je i navedeno.
 
+
+![skica](https://github.com/user-attachments/assets/39250d14-409f-4ecc-b048-593764f7d3ed) <br>
+_Slika 1_ Dijagram sistema
+
 ## Funkcionalnost sistema
 
 Kada korisnik pritisne dugme povezano na CN1, LED dioda na CN2 se uključuje. LED ostaje uključena sve dok je dugme fizički pritisnuto, čime se realizuje direktan prenos stanja jednog bita kroz POWERLINK mrežu.
