@@ -77,8 +77,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //------------------------------------------------------------------------------
 
 #define LED_PIN 0
-#define BUTTON_PIN 1
-//------------------------------------------------------------------------------
 // local types
 //------------------------------------------------------------------------------
 /* structure for input process image */
@@ -176,14 +174,12 @@ tOplkError processSync(void)
     /* read input image - digital outputs */
     digitalOut_l = pProcessImageOut_l->digitalOut;
     
-    printf("Vrijednost dig.out: %d", digitalOut_l > 0 ? 1 : 0);
-
     /* setup output image - digital inputs */
     pProcessImageIn_l->digitalIn = digitalIn_l;
     
-    if((digitalIn_l & 0x01) > 0)
+    if((digitalOut_l & 0x01) > 0)
     {
-        printf("Vrijednost dig. input: %d ", digitalIn_l);
+        printf("Vrijednost dig. out: %d ", digitalOut_l);
         setLedState(1);
     }
     else
