@@ -24,7 +24,7 @@ openCONFIGURATOR podržava standardizovani POWERLINK XML format, koji omogućava
 
 #### Uloga u POWERLINK sistemu:
 
-U jednoj tipičnoj POWERLINK mreži, openCONFIGURATOR se koristi pre pokretanja aplikacija. Nakon što se pomoću alata definiše topologija mreže i svi parametri, generisani fajlovi se prenose:
+U jednoj tipičnoj POWERLINK mreži, openCONFIGURATOR se koristi prije pokretanja aplikacija. Nakon što se pomoću alata definiše topologija mreže i svi parametri, generisani fajlovi se prenose:
 
 - Na Managing Node (MN) – koji koristi konfiguraciju da upravlja mrežom,
 
@@ -37,5 +37,5 @@ Ovi fajlovi omogućavaju pravilno funkcionisanje mreže, uključujući pravilno 
 Kao što je navedeno, openCONFIGURATOR se može instalirati kao standalone i Eclipse IDE dodatak. 
 U ovom projektu smo koristili dodatak za Eclipse IDE, za Windows i Linux operativni sistem
 
-- Instalacija na Windows OS
-- Instalacija na Linux OS
+- [ Instalacija na Windows OS ](https://github.com/sdejana/openPOWERLINK_app/blob/main/docs/openCONFIGURATOR-WindowsOS.md)
+- [ Instalacija na Linux OS ](https://github.com/sdejana/openPOWERLINK_app/blob/main/docs/openCONFIGURATOR-LinuxOS.md)
