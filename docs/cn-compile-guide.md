@@ -27,7 +27,7 @@ i prebaciti/kopirati novonastalu dijeljenu biblioteku (`*.so`) u bibliotečki fo
 Nakon kros-kompajliranja `wiringPi` biblioteke moguće je kros-kompajlirati i CN aplikacije. 
 
 U folderu `code` nalazi se `CMakeLists.txt`, datoteka potrebne za kros-kompajliranje aplikacija. Takođe, potrebno je preuzeti ili napisati toolchain za ciljnu platformu. 
-> [!Note]:
+> [!NOTE]:
 > Putanje koje se koriste pri kros-kompajliranju zavise od kloniranja repozitorijuma i strukture direktorijuma.
 
 ```bash
