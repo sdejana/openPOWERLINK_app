@@ -42,3 +42,7 @@ Testiranje se vrši tako što se CN1 poveže sa fizičkim tasterom, a CN2 sa LED
 - Oslobađanjem dugmeta LED treba da se isključuje.
 
 Mjerenjem vremena odziva može se provjeriti da li komunikacija između čvorova zadovoljava parametre real-time prenosa.
+
+
+https://github.com/user-attachments/assets/407b7d8d-89f8-49d0-8df1-34e59b8cd3b1 <br>
+_Video 1_ Demonstracija rada mreže
